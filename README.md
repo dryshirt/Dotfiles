@@ -1,2 +1,2 @@
 # Dotfiles
-macOS dotfiles
+dryshirt's macOS dotfiles
