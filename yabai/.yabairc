@@ -37,9 +37,10 @@ yabai -m rule --add app="^System Preferences$" manage=off
 yabai -m rule --add app="^App Store$" manage=off
 yabai -m rule --add app="^Messages$" manage=off
 yabai -m rule --add app="^FaceTime$" manage=off
+yabai -m rule --add app="^Calculator$" manage=off
 yabai -m rule --add app="^(QuickTime Player|IINA)$" manage=off
 yabai -m rule --add app="^Safari$" title="^(General|Tabs|AutoFill|Passwords|Search|Security|Privacy|Websites|Extensions|Advanced)$" manage=off
 yabai -m rule --add app="^Finder$" title="^(Finder Preferences|Copy)$|(.*Info)" manage=off
-yabai -m rule --add app="^Mail&$" title="^(General|Accounts|Junk Mail|Fonts & Colors|Viewing|Composing|Signatures|Rules)$" manage=off
+yabai -m rule --add app="^Mail$" title="^(General|Accounts|Junk Mail|Fonts & Colors|Viewing|Composing|Signatures|Rules)$" manage=off
 # float rules: other
 yabai -m rule --add app="^Discord$" manage=off
