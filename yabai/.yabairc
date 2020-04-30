@@ -33,14 +33,29 @@ yabai -m config focus_follows_mouse autoraise
 yabai -m config mouse_follows_focus on
 
 # float rules: system
-yabai -m rule --add app="^System Preferences$" manage=off
 yabai -m rule --add app="^App Store$" manage=off
-yabai -m rule --add app="^Messages$" manage=off
-yabai -m rule --add app="^FaceTime$" manage=off
+yabai -m rule --add app="^Books$" title=".* Preferences" manage=off
 yabai -m rule --add app="^Calculator$" manage=off
-yabai -m rule --add app="^(QuickTime Player|IINA)$" manage=off
-yabai -m rule --add app="^Safari$" title="^(General|Tabs|AutoFill|Passwords|Search|Security|Privacy|Websites|Extensions|Advanced)$" manage=off
+yabai -m rule --add app="^Calendar$" title="^(General|Accounts|Alerts|Advanced)$" manage=off
+yabai -m rule --add app="^Contacts$" title="^(General|Accounts|Template|vCard)$" manage=off
+yabai -m rule --add app="^Dictionary$" title="^Preferences$" manage=off
+yabai -m rule --add app="^FaceTime$" manage=off
 yabai -m rule --add app="^Finder$" title="^(Finder Preferences|Copy)$|(.*Info)" manage=off
+yabai -m rule --add app="^Font Book$" title="^Font Book Preferences$" manage=off
 yabai -m rule --add app="^Mail$" title="^(General|Accounts|Junk Mail|Fonts & Colors|Viewing|Composing|Signatures|Rules)$" manage=off
+yabai -m rule --add app="^Messages$" manage=off
+yabai -m rule --add app="^News$" title="^News Preferences$" manage=off
+yabai -m rule --add app="^Notes$" title="^Preferences$" manage=off
+yabai -m rule --add app="^Photos$" title="^(General|iCloud)$" manage=off
+yabai -m rule --add app="^Photo Booth$" manage=off
+yabai -m rule --add app="^Podcasts$" title="^(General|Playback|Advanced)$" manage=off
+yabai -m rule --add app="^Preview$" title="^(General|Images|PDF)$" manage=off
+yabai -m rule --add app="^Reminders$" title="^Preferences$" manage=off
+yabai -m rule --add app="^Safari$" title="^(General|Tabs|AutoFill|Passwords|Search|Security|Privacy|Websites|Extensions|Advanced)$" manage=off
+yabai -m rule --add app="^System Preferences$" manage=off
+yabai -m rule --add app="^TextEdit$" title="^Preferences$" manage=off
+yabai -m rule --add app="^(QuickTime Player|IINA)$" manage=off
+yabai -m rule --add app="^Voice Memos$" title="^Voice Memos Preferences$" manage=off
 # float rules: other
 yabai -m rule --add app="^Discord$" manage=off
+yabai -m rule --add app="^Keka$" manage=off
