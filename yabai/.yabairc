@@ -40,7 +40,7 @@ yabai -m rule --add app="^Calendar$" title="^(General|Accounts|Alerts|Advanced)$
 yabai -m rule --add app="^Contacts$" title="^(General|Accounts|Template|vCard)$" manage=off
 yabai -m rule --add app="^Dictionary$" title="^Preferences$" manage=off
 yabai -m rule --add app="^FaceTime$" manage=off
-yabai -m rule --add app="^Finder$" title="^(Finder Preferences|Copy)$|(.*Info)" manage=off
+yabai -m rule --add app="^Finder$" title="^(Finder Preferences|Copy|Trash)$|(.*Info)" manage=off
 yabai -m rule --add app="^Font Book$" title="^Font Book Preferences$" manage=off
 yabai -m rule --add app="^Mail$" title="^(General|Accounts|Junk Mail|Fonts & Colors|Viewing|Composing|Signatures|Rules)$" manage=off
 yabai -m rule --add app="^Messages$" manage=off
